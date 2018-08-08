@@ -25,7 +25,7 @@
     'name': 'Location management for lead (aka Better ZIP)',
     'version': '9.0.1.1.0',
     'depends': ['base'],
-    'author': "ReflexLibre",
+    'author': "ReflexLibre,"
               "Camptocamp,"
               "ACYSOS S.L.,"
               "Alejandro Santana,"
