@@ -6,5 +6,6 @@
 
 from . import better_zip
 from . import partner
+from . import lead
 from . import state
 from . import company
