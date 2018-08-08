@@ -5,6 +5,7 @@
 #    Contributor: Pedro Manuel Baeza <pedro.baeza@serviciosbaeza.com>
 #                 Ignacio Ibeas <ignacio@acysos.com>
 #                 Alejandro Santana <alejandrosantana@anubia.es>
+#                 Valentin GRIMAUD <ljf+odoo-base-location@reflexlibre.net>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -21,10 +22,11 @@
 #
 ##############################################################################
 {
-    'name': 'Location management (aka Better ZIP)',
+    'name': 'Location management for lead (aka Better ZIP)',
     'version': '9.0.1.1.0',
     'depends': ['base'],
-    'author': "Camptocamp,"
+    'author': "ReflexLibre",
+              "Camptocamp,"
               "ACYSOS S.L.,"
               "Alejandro Santana,"
               "Tecnativa,"
@@ -37,14 +39,16 @@
         'Alejandro Santana <alejandrosantana@anubia.es>',
         'Sandy Carter <sandy.carter@savoirfairelinux.com>',
         'Yannick Vaucher <yannick.vaucher@camptocamp.com>',
+        'Valentin GRIMAUD <ljf+odoo-base-location@reflexlibre.net>',
     ],
-    'summary': '''Enhanced zip/npa management system''',
-    'website': 'http://www.camptocamp.com',
+    'summary': '''Enhanced zip/npa management system for lead''',
+    'website': 'https://reflexlibre.net',
     'data': ['views/better_zip_view.xml',
              'views/state_view.xml',
              'views/res_country_view.xml',
              'views/company_view.xml',
              'views/partner_view.xml',
+             'views/lead_view.xml',
              'security/ir.model.access.csv'],
     'demo': [
         'demo/better_zip.xml',

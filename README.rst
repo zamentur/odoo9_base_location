@@ -3,29 +3,15 @@
    :alt: License: AGPL-3
 
 =======================
-Enhanced ZIP management
+Enhanced ZIP management for lead
 =======================
 
-This module introduces a better zip/npa management system.
+This module introduces a better zip/npa management system for leads.
 
-It enables zip, city, state and country auto-completion on partners and companies.
+It enables zip, city, state and country auto-completion on partners, leads and companies.
 
 Also allows different search filters.
 
-Usage
-=====
-
-.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
-   :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/134/9.0
-
-Bug Tracker
-===========
-
-Bugs are tracked on `GitHub Issues
-<https://github.com/OCA/partner-contact/issues>`_. In case of trouble, please
-check there if your issue has already been reported. If you spotted it first,
-help us smash it by providing detailed and welcomed feedback.
 
 Credits
 =======
@@ -33,6 +19,7 @@ Credits
 Contributors
 ------------
 
+* Valentin GRIMAUD (ReflexLibre)
 * Nicolas Bessi (Camptocamp)
 * Ignacio Ibeas (Acysos S.L.)
 * Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>
@@ -45,17 +32,3 @@ Icon
 * http://icon-park.com/icon/location-map-pin-orange3/
 
 
-Maintainer
-----------
-
-.. image:: http://odoo-community.org/logo.png
-   :alt: Odoo Community Association
-   :target: http://odoo-community.org
-
-This module is maintained by the OCA.
-
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
-
-To contribute to this module, please visit http://odoo-community.org.
