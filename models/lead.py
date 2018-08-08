@@ -23,7 +23,7 @@
 from openerp import models, fields, api
 
 
-class ResLead(models.Model):
+class CrmLead(models.Model):
     _inherit = 'crm.lead'
     zip_id = fields.Many2one('res.better.zip', 'City/Location')
     zip2_id = fields.Many2one('res.better.zip', 'City/Location')
